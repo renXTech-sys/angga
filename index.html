@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Muhammad Angga" content="Sebuah Website Portofolio yang dibuat oleh seseorang bernama Muhammad Angga">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Muhammad Angga">
+    <meta property="og:description" content="Halo, saya Muhammad Angga">
+    <meta property="og:image" content="https://top4top.me/dyG9RH9RfDSQ8pR/file">
+    <meta property="og:url" content="https://angga.page.gd">
+    <title>Muhammad Angga</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="/poto/favicon.ico">
+</head>
+<body>
+<style>
+    img {
+        border-radius: 5px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    div.gallery-item {
+        margin: 5px auto;
+        border: 1px solid #ccc;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    div.gallery-item:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.gallery-item div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 768px) {
+        div.gallery-item {
+            width: 80%;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        div.gallery-item {
+            width: 100%;
+        }
+    }
+    
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+</style><header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">Renx<span>Tech</span></a>
+        </div>
+        <div class="menu-toggle" id="lewatHP">
+            <i class="bi bi-list"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#thanksto">Thanks To</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <section id="home" class="section">
+        <div class="hero-content">
+            <h1>Halo, Saya Muhammad Angga</h1>
+            <p>Saya seorang Website Developer, Cybersecurity, BackEnd Dev</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="underline"></div>
+            <p>Saya adalah seorang pelajar yang berfokus pada pengembangan web modern dan keamanan sistem. Berbekal dedikasi tinggi, saya selalu berusaha membangun solusi digital yang tidak hanya fungsional dan estetis, tetapi juga aman dari berbagai celah keamanan.</p>
+            
+            <div class="profile-container">
+                <div class="gallery-item">
+                    <a target="_blank" href="/poto/angga.jpg">
+                        <img src="/poto/angga.jpg" alt="Image" width="200" height="300">
+                    </a>
+                    <div class ="desc">Muhammad Angga<br>
+                        Kelas : 11<br>
+                        Jurusan : TKJ<br>
+                        Sekolah : SMK 14 MEDAN
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills">
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <span><i class="bi bi-code-slash"></i> JavaScript Programming</span>
+                        <span>79%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" style="width: 79%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <span><i class="bi bi-globe"></i> Internet/Network Engineer (TKJ)</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <span><i class="bi bi-palette"></i> Designer</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <span><i class="bi bi-shield-lock"></i> Bug Hunter</span>
+                        <span>56%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" style="width: 56%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Project Saya</h2>
+            <div class="underline"></div>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Web Application</h3>
+                    <p>ada. tapi nanti</p>
+                </div>
+                <div class="project-card">
+                    <h3>Security Audit</h3>
+                    <p>ada. tapi nanti</p>
+                </div>
+                <div class="project-card">
+                    <h3>Designer</h3>
+                    <p>coming soon ygy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <section id="thanksto" class="section">
+    <div class="container">
+        <h2>Thanks To</h2>
+        <div class="underline"></div>
+        <p>Terimakasih telah membantu</p>
+        
+        <div class="thanks-grid">
+            <div class="thanks-card">
+                <div class="thanks-logo-wrapper">
+                    <img src="/poto/AnugerahSignalAbadi.jpg" alt="PT. Anugerah Signal Abadi Logo" class="thanks-img">
+                </div>
+                <h3>PT. Anugerah Signal Abadi</h3>
+                <p>Atas kontribusi, penyediaan infrastruktur jaringan signal, jaringan optik, dan Server </p>
+            </div>
+
+            <div class="thanks-card">
+                <div class="thanks-logo-wrapper">
+                    <img src="/poto/gemini.jpg" alt="Gemini Logo" class="thanks-img">
+                </div>
+                <h3>Google Gemini AI</h3>
+                <p>makasih telah membantu project ini ketika error di main.js nya</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <div class="underline"></div>
+            <p>Tertarik untuk bekerja sama atau sekadar menyapa? Silakan kirimkan pesan kamu.</p>
+            
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="bi bi-envelope-fill"></i>
+                    <p>renxtech@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="bi bi-telephone-fill"></i>
+                    <p>+62 831-3677-8501</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Muhammad Angga. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="https://id.linkedin.com/in/muhammad-angga-7782b8347" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/anggasayangskibiditoilet?igsh=c2l2eGpsZTAzeWFw" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:renxtech@gmail.com"><i class="bi bi-envelope"></i></a>
+                <a href="https://wa.me/6283136778501" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
